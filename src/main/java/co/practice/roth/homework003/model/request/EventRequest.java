@@ -16,10 +16,8 @@ public class EventRequest {
     @NotBlank(message = "Event name cannot be blank!")
     private String eventName;
 
-    @NotBlank(message = "Event date cannot be blank!")
     private LocalDate eventDate;
 
-    @NotBlank(message = "Venue ID cannot be blank!")
     private Integer venueId;
 
     private List<Integer> attendeeId;
